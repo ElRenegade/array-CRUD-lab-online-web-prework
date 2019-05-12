@@ -13,7 +13,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   my_array = ["chicken", "beef","pork"]
-  my_array.unshift("fish")
+  my_array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
